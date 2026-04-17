@@ -85,36 +85,6 @@ spotify-data-analysis/
 | Features | 20+ audio features |
 | Key columns | `popularity`, `danceability`, `energy`, `valence`, `tempo`, `loudness`, `acousticness`, `instrumentalness`, `speechiness`, `liveness`, `track_genre`, `artists`|
 
-> Download the CSV from Kaggle and place it in the project root as `spotify-tracks-dataset.csv` before running the notebook.
-
----
-
-## ⚙️ How to Run
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/vartikaseth/spotify-data-analysis.git
-cd spotify-data-analysis
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add the dataset
-Download from Kaggle (link above) and place as:
-```
-spotify-tracks-dataset.csv
-```
-
-### 4. Launch the notebook
-```bash
-jupyter notebook spotify_analysis.ipynb
-```
-
-Run all cells in order. Charts are auto-saved to `images/`.
-
 ---
 
 ## 🛠 Tools & Libraries
